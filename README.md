@@ -6,12 +6,12 @@ This projects aims to built a text classification model that predicts sentiment 
 - Deploy a lightweight, interpretable sentiment classifier
 - Build a simple interface for testing predictions
 
-  ## Stack
-  - Python, scikit-learn, NLTK, pandas, matplotlib
-  - Jupyter notebooks for analysis
+## Stack
+- Python, scikit-learn, NLTK, pandas, matplotlib
+- Jupyter notebooks for analysis
  
-  ## Status:
-  ✔️ Project initialized
-  ⬜ Dataset loaded and cleaned
-  ⬜ Feature extraction and model training
-  ⬜ Interface and deployment
+## Status:
+✔️ Project initialized
+⬜ Dataset loaded and cleaned
+⬜ Feature extraction and model training
+⬜ Interface and deployment
