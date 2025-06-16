@@ -13,5 +13,5 @@ This projects aims to built a text classification model that predicts sentiment 
 ## Status:
 ✔️ Project initialized
 ✔️ Dataset loaded and cleaned
-⬜ Feature extraction and model training
+✔️ Feature extraction and model training
 ⬜ Interface and deployment
