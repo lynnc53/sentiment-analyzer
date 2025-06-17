@@ -4,13 +4,13 @@ import pandas as pd
 df = pd.read_csv("data/clean_movie_reviews.csv")
 print(df.head())
 
-# Apply Stemming 
-from nltk.stem import PorterStemmer
-stemmer = PorterStemmer()
-def stem_text(text):
-    return " ".join([stemmer.stem(word) for word in text.split()])
+# # Apply Stemming 
+# from nltk.stem import PorterStemmer
+# stemmer = PorterStemmer()
+# def stem_text(text):
+#     return " ".join([stemmer.stem(word) for word in text.split()])
 
-df['stemmed_text'] =df['clean_text'].apply(stem_text)
+# df['stemmed_text'] =df['clean_text'].apply(stem_text)
 
 # TF-IDF Vectorization
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,7 +23,7 @@ vectorizer = TfidfVectorizer(
     max_df = 0.8,
 )
 
-x = vectorizer.fit_transform(df['stemmed_text'])
+x = vectorizer.fit_transform(df['clean_text'])
 y = df['label']
 
 # Save the vectorized data 
