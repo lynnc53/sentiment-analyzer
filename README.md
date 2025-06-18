@@ -4,11 +4,11 @@ This project builds a text classification model that predicts sentiment (Positiv
 ## Goals
 - Explore classical NLP techniques using TF-IDF and Logistic Regression
 - Build a lightweight and interpretable sentiment classifier
-- Develop a simple frontend for user interaction (via CLI or Streamlit)
+- Develop a simple frontend for user interaction (via Streamlit)
 
 ## Stack
 - **Languages & Libraries**: Python, scikit-learn, NLTK, pandas, matplotlib, seaborn
-- **Interface**: Streamlit for web-based UI, CLI option via `sentiment_cli.py`
+- **Interface**: Streamlit for web-based UI
 - **Development Tools**: Jupyter notebooks for exploration and visualization
 
 ## Status
